@@ -1,12 +1,10 @@
-Software rarely fails because it lacks a feature; it fails because it cannot scale, cannot recover, or cannot be securely maintained. Yet, Non-Functional Requirements (NFRs) are routinely treated as an afterthought, reduced to vague, untestable wishes like "the system must be reliable." This upfront ambiguity is the leading cause of crippling technical debt, endless refactoring, and late-stage architectural collapse.
-
-Enter the **NFR Refiner**: an intelligent assistant that transforms static engineering methodologies into a live, interactive experience. The NFR Refiner agent doesn't just passively record requirements. It actively interviews stakeholders, enforces strict quality standards, fetch real-world industry benchmarks, and translates fuzzy human intent into strictly verifiable Planguage based specifications.
-
 # 💡 Project Vision & Innovation
 
 ## The Central Idea
 
-Non-Functional Requirements (NFRs)—such as performance, security, and maintainability—are the invisible scaffolding of robust software. Yet, they are notoriously difficult to elicit, often resulting in vague statements like *"the system must be fast."* The **NFR Refiner** is an intelligent, agent system designed to solve this problem. It acts as an interactive architectural assistant that interviews stakeholders, identifies missing constraints, and translates ambiguous desires into strictly verifiable, industry-standard **Planguage** specifications. By marrying structural strictness with conversational AI, the Refiner ensures that critical system constraints are captured accurately before a single line of code is written.
+Software rarely fails because it lacks a feature; it fails because it cannot scale, cannot recover, or cannot be securely maintained. Yet, Non-Functional Requirements (NFRs) are routinely treated as an afterthought, reduced to vague, untestable wishes like "the system must be reliable." This upfront ambiguity is the leading cause of crippling technical debt, endless refactoring, and late-stage architectural collapse.
+
+Enter the **NFR Refiner**: an intelligent assistant that transforms static engineering methodologies into a live, interactive experience. The NFR Refiner agent doesn't just passively record requirements. It actively interviews stakeholders, enforces strict quality standards, fetch real-world industry benchmarks, and translates fuzzy human intent into strictly verifiable Planguage based specifications.
 
 ## The Agentic Core
 
@@ -118,7 +116,7 @@ flowchart TD
     B[2. Strategic Decision & ADR<br/>Reuse User Story Refiner] --> C
     C[3. Blueprint Drafting<br/>Antigravity /grill-me via ADR] --> D
     D[4. Agent Implementation<br/>Inject NFRs Guide Methodology] --> E
-    E[5. Test & Deploy<br/>Ship to Google Cloud Registry]
+    E[5. Test & Deploy<br/>Ship to Google Cloud Agent Platform]
     
     E --> Finish(((Finish)))
 
