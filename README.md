@@ -18,6 +18,8 @@ This project illustrates the power of effective reuse within the intelligent mul
 Historically, scaling software engineering practices relies on static wikis, PDFs, or guides that are easily ignored or misunderstood by development teams. This project transforms the static [NFRs Guide](https://github.com/evarga/nfrs-guide) into a **live, interactive entity**. The agent embodies the methodology, actively coaching the user and enforcing quality standards (Correctness, Completeness, Verifiability) in real-time, effectively scaling software engineering practices across the organization.
 * 🏗️ **Championing Upfront Design and ADRs**
 The NFR Refiner highlights the critical importance of defining system boundaries early and documenting pertinent design decisions in form of **Architecture Decision Records (ADRs)**. Beyond just historical documentation, these ADRs actively drive the search for reusable architectural artifacts. Furthermore, they serve as a foundational input for Antigravity to craft precise blueprints for future systems, directly contributing to the realization of a scalable, factory-model approach to SDLC.
+* 💰 **Reducing Cost and Boosting Quality**
+The NFR Refiner directly targets a massive enterprise cost center: technical debt and architectural rework. By ensuring that Non-Functional Requirements (NFRs) are rigorously defined upfront and captured in Architecture Decision Records (ADRs), the agent acts as an enterprise-grade tool that saves businesses money by preventing late-stage system failures and costly refactoring.
 
 # Usage and Internal Details
 
