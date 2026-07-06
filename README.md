@@ -1,8 +1,12 @@
+Software rarely fails because it lacks a feature; it fails because it cannot scale, cannot recover, or cannot be securely maintained. Yet, Non-Functional Requirements (NFRs) are routinely treated as an afterthought, reduced to vague, untestable wishes like "the system must be reliable." This upfront ambiguity is the leading cause of crippling technical debt, endless refactoring, and late-stage architectural collapse.
+
+Enter the **NFR Refiner**: an intelligent assistant that transforms static engineering methodologies into a live, interactive experience. The NFR Refiner agent doesn't just passively record requirements. It actively interviews stakeholders, enforces strict quality standards, fetch real-world industry benchmarks, and translates fuzzy human intent into strictly verifiable Planguage based specifications.
+
 # 💡 Project Vision & Innovation
 
 ## The Central Idea
 
-Non-Functional Requirements (NFRs)—such as performance, security, and maintainability—are the invisible scaffolding of robust software. Yet, they are notoriously difficult to elicit, often resulting in vague statements like *"the system must be fast."* The **NFR Refiner** is an intelligent, multi-agent system designed to solve this problem. It acts as an interactive architectural assistant that interviews stakeholders, identifies missing constraints, and translates ambiguous desires into strictly verifiable, industry-standard **Planguage** specifications. By marrying structural strictness with conversational AI, the Refiner ensures that critical system constraints are captured accurately before a single line of code is written.
+Non-Functional Requirements (NFRs)—such as performance, security, and maintainability—are the invisible scaffolding of robust software. Yet, they are notoriously difficult to elicit, often resulting in vague statements like *"the system must be fast."* The **NFR Refiner** is an intelligent, agent system designed to solve this problem. It acts as an interactive architectural assistant that interviews stakeholders, identifies missing constraints, and translates ambiguous desires into strictly verifiable, industry-standard **Planguage** specifications. By marrying structural strictness with conversational AI, the Refiner ensures that critical system constraints are captured accurately before a single line of code is written.
 
 ## The Agentic Core
 
@@ -11,17 +15,17 @@ Agents are not just a feature of this project; they are its central operational 
 ## Key Highlights & Value Proposition
 
 * 🌱 **Ecosystem Expansion via Google's Agent Garden**
-This project illustrates the power of effective reuse within the intelligent agent ecosystem. Rather than reinventing the wheel, the NFR Refiner strategically leverages **Google's Agent Garden** to expand the existing agentic workforce. In thise case, the [User Story Refiner](https://github.com/google/adk-samples/tree/main/python/agents/sdlc-user-story-refiner) agent covering the functional aspects of a system. By composing our solution with pre-built, high-quality agentic assets and grounding tools, we demonstrate how developers can rapidly assemble complex, specialized workflows that contribute back to the broader ecosystem.
+This project illustrates the power of effective reuse within the intelligent multi-agent ecosystem. Rather than reinventing the wheel, the NFR Refiner strategically leverages **Google's Agent Garden** to expand the existing agentic workforce. The starting point was the [User Story Refiner](https://github.com/google/adk-samples/tree/main/python/agents/sdlc-user-story-refiner) agent that covers the functional aspects of a system. By composing our solution with pre-built, high-quality agentic assets and grounding tools, we demonstrate how developers can rapidly assemble complex, specialized workflows that contribute back to the broader ecosystem.
 * 📖 **Breathing Life into Static Methodologies**
-Historically, scaling software engineering practices relies on static wikis, PDFs, or guides that are easily ignored or misunderstood by development teams. This project transforms the static [NFRs Guide](https://github.com/evarga/nfrs-guide) into a **live, interactive entity**. The agent embodies the methodology, actively coaching the user and enforcing quality standards (Correctness, Completeness, Verifiability) in real-time, effectively scaling elite architectural practices across the organization.
+Historically, scaling software engineering practices relies on static wikis, PDFs, or guides that are easily ignored or misunderstood by development teams. This project transforms the static [NFRs Guide](https://github.com/evarga/nfrs-guide) into a **live, interactive entity**. The agent embodies the methodology, actively coaching the user and enforcing quality standards (Correctness, Completeness, Verifiability) in real-time, effectively scaling software engineering practices across the organization.
 * 🏗️ **Championing Upfront Design and ADRs**
-The NFR Refiner highlights the critical importance of defining system boundaries early and documenting pertinent design decisions in form of **Architecture Decision Records (ADRs)**. Beyond just historical documentation, these ADRs actively drive the search for reusable architectural artifacts. Furthermore, they serve as a foundational input for Antigravity to craft precise blueprints for future systems, directly contributing to the realization of a scalable, factory-model approach to software engineering.
+The NFR Refiner highlights the critical importance of defining system boundaries early and documenting pertinent design decisions in form of **Architecture Decision Records (ADRs)**. Beyond just historical documentation, these ADRs actively drive the search for reusable architectural artifacts. Furthermore, they serve as a foundational input for Antigravity to craft precise blueprints for future systems, directly contributing to the realization of a scalable, factory-model approach to SDLC.
 
 # Usage and Internal Details
 
 ## Project Structure
 
-The structure below reflects the final state, after following the steps in the [Deployment](#deployment) section.
+The structure below reflects the final state, after following the steps in the [Quick Start](#quick-start) section.
 
 ```
 <root>/
@@ -104,9 +108,7 @@ See the [A2A Inspector docs](https://github.com/a2aproject/a2a-inspector) for de
 
 # 🏗️ How It Was Built: The Journey
 
-The NFR Refiner was constructed using a modern, AI-accelerated workflow, taking the project from raw ideation to a fully deployed cloud asset in record time.
-
-Here is the high-level activity flow of our development process:
+The NFR Refiner was constructed using a modern, AI-accelerated workflow, taking the project from raw ideation to a fully deployed cloud asset in record time. Here is the high-level activity flow of our development process:
 
 ```mermaid
 flowchart TD
@@ -134,8 +136,8 @@ The project kicked off with an intensive brainstorming session using Google Gemi
 * **2. Strategic Reuse & ADR Crafting**
 Instead of starting from scratch, we made the architectural decision to reuse and adapt an existing solution (the User Story Refiner). This allowed us to contribute directly back to a broader Software Development Life Cycle (SDLC) ecosystem. This pivotal design decision was immediately documented in an [Architecture Decision Record (ADR)](docs/decisions/0001-reuse-vs-build.md).
 * **3. Blueprinting with Antigravity**
-We leveraged the newly minted ADR as a direct input for **Antigravity**. Using a rigorous `/grill-me` meta-prompt, Antigravity ingested the architectural constraints and drafted the foundational candidate blueprint for the multi-agent system.
+We leveraged the newly minted ADR as a direct input for **Antigravity**. Using a rigorous `/grill-me` [meta-prompt](docs/init-meta-prompt.md), Antigravity ingested the architectural constraints and drafted the candidate blueprint for the agentic system.
 * **4. Implementing the Methodology**
-With the blueprint in place, we customized the core agent logic. We translated the static rules of the standard *NFRs Guide* into dynamic, executable instructions, effectively turning the agent into a live enforcer of elite architectural methodologies.
+With the blueprint in place, we customized the core agent logic. We translated the static rules of the standard *NFRs Guide* into dynamic, executable instructions, effectively turning the agent into a live enforcer of crucial methodologies.
 * **5. Testing & Cloud Deployment**
 Finally, the agent was tested locally using the Google Agents CLI and deployed directly into Google Cloud's Vertex AI Agent Runtime. This secured the agent within an enterprise-grade environment, complete with session management and discoverability via the Agent Registry.
