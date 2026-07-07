@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class AgentConfig(BaseSettings):
     """
-    Configuration for the User Story Refiner Agent.
+    Configuration for the NFR Refiner Agent.
     """
 
     default_llm: str = Field(
